@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Login from "../views/Login";
 import Main from "../views/Main";
+import User from "../views/user/User";
 
 Vue.use(Router)
 
@@ -20,7 +21,14 @@ export default new Router({
     {
       path: '/main',
       name: 'Main',
-      component: ()=>import('../views/Main')
+      component: ()=>import('../views/Main'),
+      children: [
+        {
+          path: '/user',
+          name: 'User',
+          component: ()=>import('../views/user/User')
+        }
+      ]
     }
   ]
 })

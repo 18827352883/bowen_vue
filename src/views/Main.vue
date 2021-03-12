@@ -62,7 +62,7 @@
                 'id' : '1',
                 'parentId': '0',/*上级菜单ID*/
                 'menuName': '用户管理',/*菜单名称*/
-                'url': '',/*菜单URL*/
+                'url': '/user',/*菜单URL*/
                 'icon': 'el-icon-user',/*图标*/
                 'orderNum': '1',/*排序*/
                 'open': '1',/*0：不展开，1：展开*/
