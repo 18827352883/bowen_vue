@@ -11,7 +11,7 @@
       <div class="right_box">
         <el-dropdown>
       <span class="el-dropdown-link">
-        注销登录<i class="el-icon-arrow-down el-icon--right"></i>
+        注销登录哈哈<i class="el-icon-arrow-down el-icon--right"></i>
       </span>
           <el-dropdown-menu slot="dropdown">
             <el-dropdown-item icon="el-icon-house">系统首页</el-dropdown-item>
@@ -61,9 +61,9 @@
               {
                 'id' : '1',
                 'parentId': '0',/*上级菜单ID*/
-                'menuName': '商品管理',/*菜单名称*/
+                'menuName': '用户管理',/*菜单名称*/
                 'url': '',/*菜单URL*/
-                'icon': 'el-icon-ship',/*图标*/
+                'icon': 'el-icon-user',/*图标*/
                 'orderNum': '1',/*排序*/
                 'open': '1',/*0：不展开，1：展开*/
                 'disabled': false, /*是否禁用*/
@@ -71,97 +71,97 @@
                 'type': 0,/*类型： 0：菜单，1：按钮*/
                 'children':[]/*子菜单*/
               },
-              {
-                'id' : '2',
-                'parentId': '0',/*上级菜单ID*/
-                'menuName': '发票管理',/*菜单名称*/
-                'url': '/invoice',/*菜单URL*/
-                'icon': 'el-icon-edit-outline',/*图标*/
-                'orderNum': '1',/*排序*/
-                'open': '1',/*0：不展开，1：展开*/
-                'disabled': false, /*是否禁用*/
-                'perms': null,/*权限标识*/
-                'type': 0,/*类型： 0：菜单，1：按钮*/
-                'children':[]
-              },
-              {
-                'id' : '3',
-                'parentId': '0',/*上级菜单ID*/
-                'menuName': '库存管理',/*菜单名称*/
-                'url': '/inventory',/*菜单URL*/
-                'icon': 'el-icon-suitcase-1',/*图标*/
-                'orderNum': '1',/*排序*/
-                'open': '1',/*0：不展开，1：展开*/
-                'disabled': false, /*是否禁用*/
-                'perms': null,/*权限标识*/
-                'type': 0,/*类型： 0：菜单，1：按钮*/
-                'children':[]
-              },
-              {
-                'id' : '4',
-                'parentId': '0',/*上级菜单ID*/
-                'menuName': '供应商管理',/*菜单名称*/
-                'url': '/suppliers',/*菜单URL*/
-                'icon': 'el-icon-s-custom',/*图标*/
-                'orderNum': '1',/*排序*/
-                'open': '1',/*0：不展开，1：展开*/
-                'disabled': false, /*是否禁用*/
-                'perms': null,/*权限标识*/
-                'type': 0,/*类型： 0：菜单，1：按钮*/
-                'children':[]
-              },
-              {
-                'id' : '5',
-                'parentId': '0',/*上级菜单ID*/
-                'menuName': '订单管理',/*菜单名称*/
-                'url': '/order',/*菜单URL*/
-                'icon': 'el-icon-edit',/*图标*/
-                'orderNum': '1',/*排序*/
-                'open': '1',/*0：不展开，1：展开*/
-                'disabled': false, /*是否禁用*/
-                'perms': null,/*权限标识*/
-                'type': 0,/*类型： 0：菜单，1：按钮*/
-                'children':[]
-              },
-              {
-                'id' : '6',
-                'parentId': '0',/*上级菜单ID*/
-                'menuName': '采购管理',/*菜单名称*/
-                'url': '/purchase',/*菜单URL*/
-                'icon': 'el-icon-truck',/*图标*/
-                'orderNum': '1',/*排序*/
-                'open': '1',/*0：不展开，1：展开*/
-                'disabled': false, /*是否禁用*/
-                'perms': null,/*权限标识*/
-                'type': 0,/*类型： 0：菜单，1：按钮*/
-                'children':[]
-              },
-              {
-                'id' : '7',
-                'parentId': '0',/*上级菜单ID*/
-                'menuName': '业务员管理',/*菜单名称*/
-                'url': '/users',/*菜单URL*/
-                'icon': 'el-icon-user',/*图标*/
-                'orderNum': '1',/*排序*/
-                'open': '1',/*0：不展开，1：展开*/
-                'disabled': false, /*是否禁用*/
-                'perms': null,/*权限标识*/
-                'type': 0,/*类型： 0：菜单，1：按钮*/
-                'children':[]
-              },
-              {
-                'id' : '8',
-                'parentId': '0',/*上级菜单ID*/
-                'menuName': '退货管理',/*菜单名称*/
-                'url': '/sales',/*菜单URL*/
-                'icon': 'el-icon-warning',/*图标*/
-                'orderNum': '1',/*排序*/
-                'open': '1',/*0：不展开，1：展开*/
-                'disabled': false, /*是否禁用*/
-                'perms': null,/*权限标识*/
-                'type': 0,/*类型： 0：菜单，1：按钮*/
-                'children':[]
-              },
+              // {
+              //   'id' : '2',
+              //   'parentId': '0',/*上级菜单ID*/
+              //   'menuName': '发票管理',/*菜单名称*/
+              //   'url': '/invoice',/*菜单URL*/
+              //   'icon': 'el-icon-edit-outline',/*图标*/
+              //   'orderNum': '1',/*排序*/
+              //   'open': '1',/*0：不展开，1：展开*/
+              //   'disabled': false, /*是否禁用*/
+              //   'perms': null,/*权限标识*/
+              //   'type': 0,/*类型： 0：菜单，1：按钮*/
+              //   'children':[]
+              // },
+              // {
+              //   'id' : '3',
+              //   'parentId': '0',/*上级菜单ID*/
+              //   'menuName': '库存管理',/*菜单名称*/
+              //   'url': '/inventory',/*菜单URL*/
+              //   'icon': 'el-icon-suitcase-1',/*图标*/
+              //   'orderNum': '1',/*排序*/
+              //   'open': '1',/*0：不展开，1：展开*/
+              //   'disabled': false, /*是否禁用*/
+              //   'perms': null,/*权限标识*/
+              //   'type': 0,/*类型： 0：菜单，1：按钮*/
+              //   'children':[]
+              // },
+              // {
+              //   'id' : '4',
+              //   'parentId': '0',/*上级菜单ID*/
+              //   'menuName': '供应商管理',/*菜单名称*/
+              //   'url': '/suppliers',/*菜单URL*/
+              //   'icon': 'el-icon-s-custom',/*图标*/
+              //   'orderNum': '1',/*排序*/
+              //   'open': '1',/*0：不展开，1：展开*/
+              //   'disabled': false, /*是否禁用*/
+              //   'perms': null,/*权限标识*/
+              //   'type': 0,/*类型： 0：菜单，1：按钮*/
+              //   'children':[]
+              // },
+              // {
+              //   'id' : '5',
+              //   'parentId': '0',/*上级菜单ID*/
+              //   'menuName': '订单管理',/*菜单名称*/
+              //   'url': '/order',/*菜单URL*/
+              //   'icon': 'el-icon-edit',/*图标*/
+              //   'orderNum': '1',/*排序*/
+              //   'open': '1',/*0：不展开，1：展开*/
+              //   'disabled': false, /*是否禁用*/
+              //   'perms': null,/*权限标识*/
+              //   'type': 0,/*类型： 0：菜单，1：按钮*/
+              //   'children':[]
+              // },
+              // {
+              //   'id' : '6',
+              //   'parentId': '0',/*上级菜单ID*/
+              //   'menuName': '采购管理',/*菜单名称*/
+              //   'url': '/purchase',/*菜单URL*/
+              //   'icon': 'el-icon-truck',/*图标*/
+              //   'orderNum': '1',/*排序*/
+              //   'open': '1',/*0：不展开，1：展开*/
+              //   'disabled': false, /*是否禁用*/
+              //   'perms': null,/*权限标识*/
+              //   'type': 0,/*类型： 0：菜单，1：按钮*/
+              //   'children':[]
+              // },
+              // {
+              //   'id' : '7',
+              //   'parentId': '0',/*上级菜单ID*/
+              //   'menuName': '业务员管理',/*菜单名称*/
+              //   'url': '/users',/*菜单URL*/
+              //   'icon': 'el-icon-user',/*图标*/
+              //   'orderNum': '1',/*排序*/
+              //   'open': '1',/*0：不展开，1：展开*/
+              //   'disabled': false, /*是否禁用*/
+              //   'perms': null,/*权限标识*/
+              //   'type': 0,/*类型： 0：菜单，1：按钮*/
+              //   'children':[]
+              // },
+              // {
+              //   'id' : '8',
+              //   'parentId': '0',/*上级菜单ID*/
+              //   'menuName': '退货管理',/*菜单名称*/
+              //   'url': '/sales',/*菜单URL*/
+              //   'icon': 'el-icon-warning',/*图标*/
+              //   'orderNum': '1',/*排序*/
+              //   'open': '1',/*0：不展开，1：展开*/
+              //   'disabled': false, /*是否禁用*/
+              //   'perms': null,/*权限标识*/
+              //   'type': 0,/*类型： 0：菜单，1：按钮*/
+              //   'children':[]
+              // },
             ]
           }
         },
