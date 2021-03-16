@@ -8,7 +8,7 @@
         <el-breadcrumb-item>活动详情</el-breadcrumb-item>
       </el-breadcrumb>
       <!--用户列表卡片-->
-      <el-card class="box-card">
+      <el-card class="box-card" style="height: 630px">
         <el-row style="padding-bottom: 10px">
           <el-button type="danger" icon="el-icon-plus" @click="addUser">添加用户</el-button>
         </el-row>

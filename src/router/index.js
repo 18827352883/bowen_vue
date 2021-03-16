@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Login from "../views/Login";
 import Main from "../views/Main";
 import User from "../views/user/User";
+import Supplier from "../views/supplier/Supplier";
 
 Vue.use(Router)
 
@@ -27,6 +28,11 @@ export default new Router({
           path: '/user',
           name: 'User',
           component: ()=>import('../views/user/User')
+        },
+        {
+          path: '/supplier',
+          name: 'Supplier',
+          component: ()=>import('../views/supplier/Supplier')
         }
       ]
     }

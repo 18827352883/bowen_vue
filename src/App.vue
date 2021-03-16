@@ -19,4 +19,7 @@ export default {
   /*text-align: center;//默认居中*/
   color: #2c3e50;
 }
+body .el-table th.gutter{
+  display: table-cell!important;
+}
 </style>

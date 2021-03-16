@@ -71,19 +71,19 @@
                 'type': 0,/*类型： 0：菜单，1：按钮*/
                 'children':[]/*子菜单*/
               },
-              // {
-              //   'id' : '2',
-              //   'parentId': '0',/*上级菜单ID*/
-              //   'menuName': '发票管理',/*菜单名称*/
-              //   'url': '/invoice',/*菜单URL*/
-              //   'icon': 'el-icon-edit-outline',/*图标*/
-              //   'orderNum': '1',/*排序*/
-              //   'open': '1',/*0：不展开，1：展开*/
-              //   'disabled': false, /*是否禁用*/
-              //   'perms': null,/*权限标识*/
-              //   'type': 0,/*类型： 0：菜单，1：按钮*/
-              //   'children':[]
-              // },
+              {
+                'id' : '2',
+                'parentId': '0',/*上级菜单ID*/
+                'menuName': '供应商',/*菜单名称*/
+                'url': '/supplier',/*菜单URL*/
+                'icon': 'el-icon-user-solid',/*图标*/
+                'orderNum': '1',/*排序*/
+                'open': '1',/*0：不展开，1：展开*/
+                'disabled': false, /*是否禁用*/
+                'perms': null,/*权限标识*/
+                'type': 0,/*类型： 0：菜单，1：按钮*/
+                'children':[]
+              },
               // {
               //   'id' : '3',
               //   'parentId': '0',/*上级菜单ID*/
